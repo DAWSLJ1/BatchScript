@@ -13,10 +13,13 @@ mkdir “My Batch Script File Assignment”
 REM A4: Create a folder within “My Batch Script File Assignment” called “Input” 
 
 cd “My Batch Script File Assignment”
+
 mkdir “Input”
 
 REM A5: Create another folder within “My Batch Script File Assignment” called “Processing” 
+
 mkdir “Processing”
+
 REM A6: Create another folder within “My Batch Script File Assignment” called “Output” 
 
 mkdir “Output”
@@ -24,6 +27,7 @@ mkdir “Output”
 REM A7: List all hidden files in the root directory of the C: drive – output the listing to a file called “Input Data.txt” in the “Input” subfolder. 
 
 cd /D “C:/My Batch Script File Assignment/Input”
+
 dir C:\ /a:h > InputData.txt
 
 REM A8: Make a backup copy of Input Data.txt on the root of the C: drive, and with the same name, but with extension “.bak”. 
