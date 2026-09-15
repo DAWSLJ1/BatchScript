@@ -1,9 +1,9 @@
 REM =============================================================================================
 REM File Name: MAIN.BAT
-REM Purpose: This batch script comples all tasks required for the Batch Script File Assignment.
+REM Purpose: This batch script completes all tasks required for the Batch Script File Assignment.
 REM Name: Luke Dawson
 REM Student ID: 1000141012
-REM Course: Bachelor of Information Technology Platforms and Devices
+REM Course: Platforms and Devices
 REM Year: 2026
 REM Semester: 2nd Semester
 REM =============================================================================================
@@ -46,7 +46,13 @@ CD /D C:\
 
 REM A10: Update the folder search path for batch script file execution to include the “Processing” subfolder, and then display the folder search path.
 
+PATH "C:\My Batch Script File Assignment\Processing";%PATH%
+
+PATH
+
 REM A11: Change the command prompt to include the time, the words “Hello World” and the ‘>’ character
+
+PROMPT $t Hello World $g
 
 REM A12: Create a new command window, with red coloured text and green background
 
@@ -63,6 +69,8 @@ CD /D "C:/My Batch Script File Assignment/Output
 DIR C:/Windows/System32 /AD > "Batch Script Output Data.txt"
 
 REM A15: List all text files whose names are up to eight characters long on the whole C: drive
+
+REM N/A
 
 REM A16: Delete folder “My Batch Script File Assignment”, together with all subfolders and their contents.
 
@@ -88,5 +96,5 @@ NET USER Bob /DELETE
 
 REM A20 Create a task to be scheduled at 11 pm every Monday that will check the C disk for errors and write the results to a file called “chkdskResults.txt” on the desktop.
 
-
+REM N/A
 
